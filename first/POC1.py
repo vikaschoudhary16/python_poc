@@ -62,7 +62,7 @@ class FileMover(object):
 
 
 dbutil = DBUtil("root", "", "localhost", "TESTDB")
-fsutil = FSUtil("/home/gauravs/Desktop/Input", "/home/gauravs/Desktop/Output")
+fsutil = FSUtil("/home/gauravs/Desktop/Input", "/home/garavs/Desktop/Output")
 
 file_mover = FileMover(fsutil, dbutil)
 file_mover.moveFiles()
