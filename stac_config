@@ -24,4 +24,4 @@ enable_quick_test_mode=True
 # As a prerequisite, admin MUST install onload on the nodes.
 enable_OpenOnloader=True
 
-Onload_tar_url=http://www.openonload.org/download/openonload-201606-u1.2.tgz
+Onload_tar_url=http://www.openonload.org/download/openonload-201606-u1.3.tgz
