@@ -2,20 +2,20 @@
 # with the same name, stac_config. 
 
 # Provided url will be used to 'wget' STAC repo
-stac_tar_url=http://my_tar_ball.tar.gz
+stac_tar_url=http://perf1.perf.lab.eng.bos.redhat.com/jeder/STAC/STAC-N-Tools-Pkg20131015_jeder.tar.gz
 
 # STAC main application thread will pinned to this core id
-main_core=1
+main_core=2
 
 # Application thread responsible for sending messages will be pinned to this core id
-sender_core=2
+sender_core=4
 
 # Receiver thread will be pinned to this core id
-receiver_core=3
+receiver_core=6
 
 # Physical interface name, eg.'eth0', on openshift nodes over which producer and consumer are connected.
 # Assumption is being made that same interface names are same across nodes
-iface_name=eth0
+iface_name=p5p1
 
 # For a quick test(1000 messages and shorter time durations), set this to 'True'. 
 enable_quick_test_mode=True
